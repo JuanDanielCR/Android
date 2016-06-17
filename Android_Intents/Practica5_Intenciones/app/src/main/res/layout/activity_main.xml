@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir página Web"
+        android:id="@+id/buttonNavegador"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="abrirPaginaWeb" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realizar llamada"
+        android:id="@+id/buttonLlamada"
+        android:layout_below="@+id/buttonNavegador"
+        android:layout_centerHorizontal="true"
+        android:onClick="llamadaTelefono" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir Google Maps"
+        android:id="@+id/buttonMaps"
+        android:layout_below="@+id/buttonLlamada"
+        android:layout_centerHorizontal="true"
+        android:onClick="googleMaps" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomar Foto"
+        android:id="@+id/buttonFoto"
+        android:layout_below="@+id/buttonMaps"
+        android:layout_centerHorizontal="true"
+        android:onClick="tomarFoto" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mandar E-mail"
+        android:id="@+id/buttonEmail"
+        android:layout_below="@+id/buttonFoto"
+        android:layout_centerHorizontal="true"
+        android:onClick="mandarCorreo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Street View"
+        android:id="@+id/btnStreet"
+        android:layout_below="@+id/buttonEmail"
+        android:layout_centerHorizontal="true"
+        android:onClick="streetView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servidores del Correo"
+        android:id="@+id/button"
+        android:layout_below="@+id/btnStreet"
+        android:layout_centerHorizontal="true"
+        android:onClick="servidoresCorreo" />
+</RelativeLayout>
