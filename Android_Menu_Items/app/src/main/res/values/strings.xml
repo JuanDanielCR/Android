@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MejorandoLaInterfaz</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="important">Importante</string>
+    <string name="share">Compartir</string>
+    <string name="good">Bueno</string>
+    <string name="desc">dasd</string>
+    <string name="titleIntent">Compartir Imágen</string>
+    <string name="msg_rate">Califica tu estancia</string>
+    <string-array name="array_rate">
+        <item>Bueno</item>
+        <item>Regular</item>
+        <item>Malo</item>
+    </string-array>
+</resources>
