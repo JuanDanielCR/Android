@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Juan%20Daniel/Documents/Android/MejorandroidCodigoBase/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="blue_dark">#283946</color>
+    <color name="font_dark">#18222a</color>
+    <color name="green_dark">#639921</color>
+    <!-- From: file:/C:/Users/Juan%20Daniel/Documents/Android/MejorandroidCodigoBase/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="avatar_size">60dp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_medium">14sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <!-- From: file:/C:/Users/Juan%20Daniel/Documents/Android/MejorandroidCodigoBase/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Mejorandroid</string>
+    <string name="label_tweet_search_loader">Descargando tweets…</string>
+    <string name="label_tweets_downloaded">Tweets descargados exitosamente.</string>
+    <string name="label_tweets_not_found">No se encontraron tweets.</string>
+    <!-- From: file:/C:/Users/Juan%20Daniel/Documents/Android/MejorandroidCodigoBase/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar"/>
+</resources>
