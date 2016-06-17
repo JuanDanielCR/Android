@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Sistema de Reservaciones"
+        android:id="@+id/txtWlecome"
+        android:textSize="20dp"
+        android:visibility="visible"
+        android:textColor="#ffffd34c" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtError"
+        android:text="Usuario y Contraseña Incorecctos"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/btnVolver"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal"
+        android:onClick="volverError" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:id="@+id/lblNombre" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:"
+        android:id="@+id/lblContrasena" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CerrarSesion"
+        android:id="@+id/button2"
+        android:onClick="volverError" />
+
+</LinearLayout><!-- From: file:/C:/Users/Juan%20Daniel/Documents/Android/Practica3_Reserva/Reserva/app/src/main/res/layout/login.xml -->
