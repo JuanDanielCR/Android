@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.example.juandaniel.mejorandola1"
+        //Version minima de sdk para la cual se compilara
+        minSdkVersion 16
+        //Siempre debe de ser la version mas grande
+        targetSdkVersion 22
+        //Esta version se modifica cada que se genera un nuevo release dentro de la play store
+        versionCode 1
+        //Version que se mostrara a los usuarios
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.0.0'
+}
